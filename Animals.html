@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initia-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie+edge">
+   <title>Animals</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+   <link rel="stylesheet" href="style.css" >
+   <script src="main.js" defer></script>
+   </head>
+   <body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="Animals.html">Animals</a></li>
+        <li><a href="numbers.html">Numbers</a></li>
+        <li><a href="objects.html">Objects</a></li>
+        <li><a href="sports.html">Sports</a></li>
+      </ul>
+      <h1>Animals</h1>
+      <p><b>Directions:</b> Drag and drop the picture to the correct box.</p>
+<section class="draggable-elements">
+   <i class="fas fa-cat draggable" draggable="true" style="color: #ff6384;" id="cat"></i>
+   <i class="fas fa-dog draggable" draggable="true" style="color: #36a2eb;" id="dog"></i>
+   <i class="fas fa-dove draggable" draggable="true" style="color: #ffce56;" id="dove"></i>
+   <i class="fas fa-fish draggable" draggable="true" style="color: #9966ff;" id="fish"></i>
+   <i class="fas fa-frog draggable" draggable="true" style="color: #4bc0c0;" id="frog"></i>
+ </section>
+ <section class="droppable-elements">
+   <div class="droppable" data-draggable-id="frog"><span>frog</span></div>
+   <div class="droppable" data-draggable-id="dove"><span>Bird</span></div>
+   <div class="droppable" data-draggable-id="cat"><span>Cat</span></div>
+   <div class="droppable" data-draggable-id="fish"><span>Fish</span></div>
+   <div class="droppable" data-draggable-id="dog"><span>Dog</span></div>
+   
+ </section>
+   </body>
+   </html>
